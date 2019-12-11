@@ -32,7 +32,7 @@ class CashRegister
   end
 
   def apply_discount
-      @discount
+      #@discount
       i = 0
       if @discount != 0
         @discount = @discount.to_f / 100.to_f
