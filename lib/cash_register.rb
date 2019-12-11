@@ -27,7 +27,7 @@ class CashRegister
     else
     @items << title
     end
-  return @items
+    @items
   end
 
   def apply_discount
@@ -44,7 +44,7 @@ class CashRegister
 
 
   def items(items)
-    returns @items
+    return @items
   end
 
 
