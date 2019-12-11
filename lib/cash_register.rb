@@ -45,7 +45,7 @@ class CashRegister
 
 
   def items(items)
-    @items 
+    @items
   end
 
 
