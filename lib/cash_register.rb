@@ -27,7 +27,7 @@ class CashRegister
     else
     @items << title
     end
-@items
+  return @items
   end
 
   def apply_discount
@@ -51,7 +51,5 @@ class CashRegister
   def void_last_transaction
     @total = @total - @price
   end
-
-
 
 end
