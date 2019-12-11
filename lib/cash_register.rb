@@ -35,7 +35,7 @@ class CashRegister
       @discount
       i = 0
       if @discount > 0
-        @discount = (@discount.to_f)/100)
+        @discount = (@discount/100).to_f
         @total  = @total - (@total * @discount)
         "After the discount, the total comes to $#{@total.to_i}."
       else
